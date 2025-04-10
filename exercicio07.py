@@ -1,7 +1,8 @@
 # Ler 5 valores, calcular e escrever a média aritmética desses valores lidos.
 soma = 0
-for x in range (5):
-    num = int(input("Digite o valor: "))
-    soma=num+soma
-media = soma /5
+quant = int(input("Digite a quantidade de notas: "))
+for x in range (quant):
+    nota = int(input("Digite o número: "))
+    soma=soma+nota
+media = soma /quant
 print(f"A média é {media}")
